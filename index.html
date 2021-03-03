@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="divport" content="width=device-width, initial-scale=1.0">
+    <title>惠英才</title>
+    <script>
+        function rem() {
+            var html = document.documentElement;
+            html.style.fontSize = html.clientWidth / 7.5 + 'px';
+        }
+        rem()
+        window.addEventListener('resize',rem, false);
+    </script>
+    <link rel="stylesheet" href="/static/css/index.css">
+</head>
+<body>
+    <div>
+        <div class="coupon-list">
+            <div class="coupon-message">
+            <img class="head-img" src="/static/img/my_qr_img.png"></img>
+            <div class="message">
+                <div class="title">星巴克50元代金券</div>
+                <div class="address">星巴克（华贸店）</div>
+                <div class="details-text">可兑换价值一杯50元的咖啡</div>
+            </div>
+            </div>
+            <div class="time-go">
+            <div class="time">有效期至：2021-08-23</div>
+            <div class="go-button">点击核销</div>
+            </div>
+        </div>
+        
+        <div class="coupon-list coupon-ed">
+            <div class="coupon-message">
+            <img class="head-img" src="/static/img/my_qr_img.png"></img>
+            <img class="coupon-ed-img" src="/static/img/coupons_expired_img.png"></img>
+            <div class="message">
+                <div class="title">星巴克50元代金券</div>
+                <div class="address">星巴克（华贸店）</div>
+                <div class="details-text">可兑换价值一杯50元的咖啡</div>
+            </div>
+            </div>
+            <div class="time-go">
+            <div class="time">有效期至：2021-08-23</div>
+            </div>
+        </div>
+
+        <div class="coupon-list coupon-used">
+            <div class="coupon-message">
+            <img class="head-img" src="/static/img/my_qr_img.png"></img>
+            <div class="message">
+                <div class="title">星巴克50元代金券</div>
+                <div class="address">星巴克（华贸店）</div>
+                <div class="details-text">可兑换价值一杯50元的咖啡</div>
+            </div>
+            </div>
+            <div class="time-go">
+            <div class="time">有效期至：2021-08-23</div>
+            <div class="go-button">已核销</div>
+            </div>
+        </div>
+    </div>
+      
+</body>
+
+</html>

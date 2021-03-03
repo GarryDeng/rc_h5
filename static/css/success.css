@@ -1,0 +1,24 @@
+html{
+    background-color:rgba(58, 131, 243, 0.1);
+}
+.success-centent{
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    margin-top: -1.2rem;
+}
+.icon{
+    width: 1.07rem;
+    display: block;
+    margin: 0 auto;
+    padding-bottom: .74rem;
+}
+.success-centent .text{
+    font-size: .34rem;
+    text-align: center;
+}
+.success-centent .text span{
+    font-weight: 600;
+}
